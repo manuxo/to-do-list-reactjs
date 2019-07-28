@@ -1,0 +1,27 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "to-do list first attempt with react js and babel",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuxo/to-do-list-reactjs.git"
+  },
+  "author": "Manuel Alvarado Estanga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manuxo/to-do-list-reactjs/issues"
+  },
+  "homepage": "https://github.com/manuxo/to-do-list-reactjs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
+  }
+}
