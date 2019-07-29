@@ -94,7 +94,7 @@ class App extends React.Component {
 
     handleChange(event){
         if(event.target.name){
-            const selected = this.state.selected;
+            const selected = Object.assign({},this.state.selected);
             selected[event.target.name] = event.target.value;
             this.setState({
                 selected
@@ -104,7 +104,7 @@ class App extends React.Component {
 
     handleCheck(event){
         if(event.target.name){
-            const selected = this.state.selected;
+            const selected = Object.assign({},this.state.selected);
             selected[event.target.name] = event.target.checked;
             this.setState({
                 selected
