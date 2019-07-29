@@ -1,0 +1,5 @@
+li.todo-item:hover{
+    cursor: pointer;
+    color: #2E9AFE;
+    transition: color 250ms ease;
+}
